@@ -1,0 +1,27 @@
+<div class="cart-container">
+
+    <h2>Səbət 🛒</h2>
+
+    <div *ngIf="cartItems.length === 0">
+        Səbət boşdur
+    </div>
+
+    <div *ngFor="let item of cartItems" class="cart-item">
+
+        <img [src]="item.img" alt="">
+
+        <div class="info">
+            <h3>{{ item.name }}</h3>
+            <p>Qiymət: {{ item.price }} ₼</p>
+            <p>Miqdar: {{ item.quantity }}</p>
+        </div>
+
+        <button class="remove-btn">book now</button>
+
+    </div>
+
+    <h3 class="total">
+        Toplam: {{ getTotal() }} ₼
+    </h3>
+
+</div>

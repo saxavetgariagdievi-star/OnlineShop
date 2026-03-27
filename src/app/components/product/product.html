@@ -1,0 +1,12 @@
+<div class="products-container">
+    <div *ngFor="let product of products" class="product-card">
+        <img [src]="'http://localhost:5155/' + product.imageUrl" alt="{{ product.name }}">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <p>Qiymət: {{ product.price }} ₼</p>
+        <p>Stok: {{ product.stockQuantity }}</p>
+        <p>Kateqoriya: {{ product.categoryName }}</p>
+        <p>Marka: {{ product.brandName }}</p>
+        <button>Book Now</button>
+    </div>
+</div>

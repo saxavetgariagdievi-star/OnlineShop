@@ -1,0 +1,11 @@
+h5{
+    color: rgb(117, 175, 175);
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: auto;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
