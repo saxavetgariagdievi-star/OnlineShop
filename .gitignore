@@ -1,0 +1,22 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.exe
+*.dll
+*.pdb
+*.log
+*.vs
+
+# Visual Studio
+.vs/
+*.ncrunch*
+*.DotSettings.user
+
+# Angular / Node
+online-shopping-ui/node_modules/
+online-shopping-ui/dist/
+online-shopping-ui/.angular/
+online-shopping-ui/.idea/
+*.tsbuildinfo
